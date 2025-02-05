@@ -15,7 +15,7 @@ A simple Wordle clone built using React. Players have 6 attempts to guess a 5-le
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Karthik18v/wordle-clone.git
+   git clone [https://github.com/Karthik18v/wordle-clone.git](https://github.com/Karthik18v/wordler-cloner.git)
    cd wordle-clone
    ```
 2. Install dependencies:
