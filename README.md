@@ -1,58 +1,48 @@
 # Wordle Clone
 
-A simple Wordle clone built using React. Players have 6 attempts to guess a 5-letter word, with color-coded feedback to guide them.
+A simple Wordle clone built with React.
 
 ## Features
-- Guess a random 5-letter word.
-- Feedback system:
-  - 🟩 **Green**: Correct letter in the correct position.
-  - 🟨 **Yellow**: Correct letter in the wrong position.
-  - ⬜ **Gray**: Incorrect letter.
-- Track guesses and display results.
-- Restart the game with a new word.
+- Guess the 5-letter word within 6 attempts.
+- Color-coded feedback:
+  - 🟩 Green: Correct letter in the correct position.
+  - 🟨 Yellow: Correct letter in the wrong position.
+  - ⬜ Gray: Incorrect letter.
+- Restart the game after winning or losing.
 
 ## Installation
 
-1. Clone this repository:
+Make sure you have [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed.
+
+1. Clone the repository:
    ```sh
-   git clone https://github.com/Karthik18v/wordler-cloner.git
+   git clone https://github.com/your-username/wordle-clone.git
    cd wordle-clone
    ```
+
 2. Install dependencies:
    ```sh
-   npm install
+   yarn install
    ```
+
 3. Start the development server:
    ```sh
-   npm start
+   yarn start
    ```
 
-## Usage
-- Enter a 5-letter word and press "Guess".
-- Receive feedback via colored tiles.
-- Win by guessing the correct word within 6 attempts.
-- Click "New Game" to start over.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## File Structure
-```
-wordle-clone/
-│-- src/
-│   │-- App.js        # Main React component
-│   │-- App.css       # Styling for the game
-│   │-- index.js      
-│-- public/
-│-- package.json
-│-- README.md
+## Build for Production
+
+To create an optimized production build:
+```sh
+yarn build
 ```
 
-## Technologies Used
-- React.js
-- CSS
-- JavaScript
+## Deploy
+
+You can deploy this project using [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
 
 ## License
-This project is licensed under the MIT License.
-
-## Author
-Created by **Karthik Chittiprolu free to contribute!
+This project is open-source and available under the [MIT License](LICENSE).
 
