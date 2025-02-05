@@ -8,7 +8,7 @@ const WORDS = [
   "chair",
   "house",
   "plane",
-  "spike",
+  "phone",
   "crane",
 ];
 const WORD_LENGTH = 5;
@@ -64,9 +64,17 @@ const App = () => {
       <div>
         <strong>How to Play:</strong>
         <div className="disclaimer">
-          <p> 🟩 Green: Correct letter in the correct position.</p>
-          <p> 🟨 Yellow: Correct letter in the wrong position.</p>
-          <p> ⬜ Gray: Incorrect letter.</p>
+          <p>
+            <span className="square green"></span> Green: Correct letter in the
+            correct position.
+          </p>
+          <p>
+            <span className="square yellow"></span> Yellow: Correct letter in
+            the wrong position.
+          </p>
+          <p>
+            <span className="square gray"></span> Gray: Incorrect letter.
+          </p>
         </div>
       </div>
       <div className="board">
